@@ -4,7 +4,7 @@
    The two slash(//) signs are used to add comments in a program. It does not have any effect on the behaviour or outcome of the program. It is used to give description of the program you’re writing.
 
 2.<b>#include</b><br/>
-include is the pre-processor directive that is used to include files in our program. Here we are including he iostream standard file which is necessary for the declarations of basic standard input/output library in C++.
+   include is the pre-processor directive that is used to include files in our program. Here we are including he iostream standard file which is necessary for the declarations of basic standard input/output library in C++.
 
 3. <b>Using namespace std</b><br/>
    All elements of the standard C++ library are declared within namespace. Here we are using std namespace.
