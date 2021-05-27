@@ -5,3 +5,4 @@ This repository contains the all the Data Structures and Algorithms concepts in 
 ## Table of Content
 
 1. [Set Up for VS Code on Windows](./1_setUp)
+2. [Data Types in C++](./2_dataTypes)

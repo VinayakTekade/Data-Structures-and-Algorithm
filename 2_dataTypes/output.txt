@@ -1,0 +1,9 @@
+size of int is 4 bytes
+size of float is 4 bytes
+size of char is 1 bytes
+size of bool is 1 bytes
+size of signed int is 4 bytes
+size of unsigned int is 4 bytes
+size of long int is 4 bytes
+size of long long is 8 bytes
+size of short int is 2 bytes
