@@ -11,3 +11,4 @@ This repository contains the all the Data Structures and Algorithms concepts in 
 5. [Loops in C++](./5_loops)
 6. [Swicthes in C++](./6_switch)
 7. [Operators in C++](./7_operators)
+8. [Printing Patterns](./8_patterns)
