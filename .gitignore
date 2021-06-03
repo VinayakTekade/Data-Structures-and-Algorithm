@@ -1,6 +1,7 @@
 .vscode
 input.txt
 output.txt
+tempCodeRunnerFile.cpp
 
 # Prerequisites
 *.d
