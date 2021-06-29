@@ -74,7 +74,7 @@ vector<vector<int>> vec2{
     {
         for (int j = 0; j < vec2[i].size(); j++)
         {
-            cout << vect[i][j] << " ";
+            cout << vec2[i][j] << " ";
         }
         cout << endl;
     }
