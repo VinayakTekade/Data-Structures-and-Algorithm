@@ -58,10 +58,31 @@ Number of subsequences of an array with n elements = `2^n`
 
 "Every Subarray is a subsequence but every Subsequence is not a subarray"
 
+# 2 Dimensional Arrays
+
+It is similar to 2D matrices. It has rows and columns. Rows are horizontal arrays and Columns are vertical arrays. Hence a 3x3 matrix will have 3 rows and 3 columns. Consider it like Array of Arrays.
+
+```
+1 2 3
+4 5 6
+7 8 9
+```
+
+# Character Arrays
+
+Arrays of characters is known as character arrays
+
+```
+char arr[n+1]
+```
+
+Notice we declare an array of size (n+1) where string is stored from 0 to n and (n+1)th character is the null character '\0' stating the end of the string.
+
 # Searching
 
 1. [Linear Search](./linearSearch.cpp)
 2. [Binary Search](./binarySearch.cpp)
+3. [Search in 2D Array](./search2D.cpp)
 
 # Sorting
 
@@ -69,20 +90,39 @@ Number of subsequences of an array with n elements = `2^n`
 2. [Bubble Sort](./bubbleSort.cpp)
 3. [Insertion Sort](./insertionSort.cpp)
 
-# Questions
+# Challenges
+
+## Basic Questions
 
 1. [Find the minimum and maximum in an array of integers](./minMaxArr.cpp)
 2. [Find the sum of all the elements in an array](./sumArr.cpp)
 3. [Find the running sum of an Array](./runningsum.cpp)
 
-# Challenges
-
 ## One Dimensional Arrays
 
 1. [Given an array of size n. For every i from 0 to n-1 output max till the ith element](./maxTilli.cpp)
+2. [Record Breaker](./recordBreaker.cpp)
+3. [First Repeating Element](./firstRepeatingElement.cpp)
+4. [Smallest Positive Missing Number](./missingNumber.cpp)
+
+## Subarrays
+
+1. [Print all subarrays](./subarrays.cpp)
 2. [Sum of all subarrays](./sumSubArrays.cpp)
-3. [Longest Arithmetic Subarrays](./longArithmeticSubarray.cpp)
-4. [Record Breaker](./recordBreaker.cpp)
-5. [First Repeating Element](./firstRepeatingElement.cpp)
+3. [Maximum Subarray Sum](./maxSumSubArrays.cpp)
+4. [Maximum Circular Subarray Sum](./maxCircularSubarray.cpp)
+5. [Longest Arithmetic Subarrays](./longArithmeticSubarray.cpp)
 6. [Subarray with Given Sum](./subarrayWithGivenSum.cpp)
-7. [Smallest Positive Missing Number](./missingNumber.cpp)
+7. [Check if there exists two elements in an array such that their sum is equal to given k](./pairSumProblem.cpp)
+
+## 2 Dimensional Arrays
+
+1. [Spiral Order Matrix Traversal](./spiralOrder.cpp)
+2. [Matrix Transpose](./matrixTranspose.cpp)
+3. [Matrix Multiplication](./matMul.cpp)
+4. [Sorted Matrix Search](./sortedMatrixSearch.cpp)
+
+## Character Arrays
+
+1. [Check if a character array is a palindrome](./palindrome.cpp)
+2. [Larges Word in a sentence](./largestWord.cpp)
