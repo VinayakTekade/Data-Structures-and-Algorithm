@@ -51,8 +51,21 @@ vec1.push_back(5);                            //Inserts 5 to end
 ```
 vec1.pop_back();                        // deletes last element
 
-vec1.insert(first + 2);                 // deletes 3rd index
-vec1.insert(first + 2, first+5);        // deletes from 3rd index to 6th index
+vec1.erase(first + 2);                 // deletes 3rd index
+vec1.erase(first + 2, first+5);        // deletes from 3rd index to 6th index
+```
+
+## Reversing Elements
+
+```
+reverse(vec1.begin(), vec1.end()); // reverses from begin to end
+```
+
+## Sorting Elements
+
+```
+sort(vec1.begin(), vec.end()); // Ascending order
+sort(vec1.begin(), vec.end(), greater<int>()); // Descending order
 ```
 
 ## 2D Vectors
