@@ -9,7 +9,7 @@ This repository contains the all the Data Structures and Algorithms concepts in 
 3. [Input Output in C++](./3_inputOutput)
 4. [If Else in C++](./4_ifElse)
 5. [Loops in C++](./5_loops)
-6. [Swicthes in C++](./6_switch)
+6. [Switches in C++](./6_switch)
 7. [Operators in C++](./7_operators)
 8. [Printing Patterns](./8_patterns)
 9. [Questions on Numbers](./9_numbers)
@@ -18,3 +18,4 @@ This repository contains the all the Data Structures and Algorithms concepts in 
 12. [Arrays](./12_arrays)
 13. [Vectors in C++](./13_vectors)
 14. [Strings](./14_strings)
+15. [Recursion](./15_recursion)
