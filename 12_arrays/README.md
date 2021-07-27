@@ -90,6 +90,11 @@ Notice we declare an array of size (n+1) where string is stored from 0 to n and 
 2. [Bubble Sort](./bubbleSort.cpp)
 3. [Insertion Sort](./insertionSort.cpp)
 
+# Advanced Sorting Techniques
+
+1. [Merge Sort](./mergeSort.cpp)
+2. [Quick Sort](./quickSort.cpp)
+
 # Challenges
 
 ## Basic Questions
