@@ -21,3 +21,4 @@ This repository contains the all the Data Structures and Algorithms concepts in 
 15. [Recursion](./15_recursion)
 16. [Backtracking](./16_backtracking)
 17. [Linked List](./17_linkedList)
+18. [Stacks](./18_stacks)
