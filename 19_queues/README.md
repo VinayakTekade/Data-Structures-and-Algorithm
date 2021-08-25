@@ -9,9 +9,11 @@ Stores a list of items in which an item can be inseted at one end and removed fr
 3. peek()
 4. empty()
 
-[Implementation of Queues using Arrays](./queue.cpp)
-[Implementation of Queues using Linked List](./queueLL.cpp)
-[Implementation of Queues using two Stacks](./queueTwoStacks.cpp)
-[Implementation of Queues using one Stack](./queueOneStack.cpp)
-[Implementation of Stack using Queue with push costly](./stackQueuePush.cpp)
-[Implementation of Stack using Queue with pop costly](./stackQueuePop.cpp)
+## Challenges
+
+1. [Implementation of Queues using Arrays](./queue.cpp)
+2. [Implementation of Queues using Linked List](./queueLL.cpp)
+3. [Implementation of Queues using two Stacks](./queueTwoStacks.cpp)
+4. [Implementation of Queues using one Stack](./queueOneStack.cpp)
+5. [Implementation of Stack using Queue with push costly](./stackQueuePush.cpp)
+6. [Implementation of Stack using Queue with pop costly](./stackQueuePop.cpp)
