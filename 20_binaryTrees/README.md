@@ -45,8 +45,17 @@ The following is a visualisation of a binary tree
 1. [Preorder Traversal](./preorderTraversal.cpp)
 2. [Inorder Traversal](./inorderTraversal.cpp)
 3. [Postorder Traversal](./postorderTraversal.cpp)
+4. [Levelorder Traversal](./levelorderTraversal.cpp)
 
 ## Build Tree
 
 1. [Build Tree from Preorder and Inorder Arrays](./preInTree.cpp)
 2. [Build Tree from Postorder and Inorder Arrays](./postInTree.cpp)
+
+## Challenges
+
+1. [Sum of Nodes at Kth level](./sumKthLevel.cpp)
+2. [Count the total number of nodes](./countAllNodes.cpp)
+3. [Sum of All nodes](./sumOfAllNodes.cpp)
+4. [Height of a Binary Tree](./heightBT.cpp)
+5. [Sum replacement in Binary Tree](./sumReplacement.cpp)
