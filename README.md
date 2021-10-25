@@ -23,3 +23,4 @@ This repository contains the all the Data Structures and Algorithms concepts in 
 17. [Linked List](./17_linkedList)
 18. [Stacks](./18_stacks)
 19. [Queues](./19_queues)
+20. [Binary Trees](./20_binaryTrees)
