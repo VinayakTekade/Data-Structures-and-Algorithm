@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include "compareFiles.h"
 using namespace std;
 
 bool compareFiles(const string &p1, const string &p2)
@@ -24,36 +25,4 @@ bool compareFiles(const string &p1, const string &p2)
     return equal(istreambuf_iterator<char>(f1.rdbuf()),
                  istreambuf_iterator<char>(),
                  istreambuf_iterator<char>(f2.rdbuf()));
-}
-
-int main()
-{
-#ifndef ONLINE_JUDGE
-    freopen("../input.txt", "r", stdin);
-    freopen("../output.txt", "w", stdout);
-#endif
-
-    int a, b;
-    cin >> a >> b;
-    cout << a + b << "\n";
-
-    // Close the output file before comparing
-#ifndef ONLINE_JUDGE
-    fclose(stdout);
-#endif
-
-    // Perform the comparison
-    bool result = compareFiles("../expected_output.txt", "../output.txt");
-
-    // Print the result to the terminal
-    if (result)
-    {
-        cerr << "Code Passed!" << endl;
-    }
-    else
-    {
-        cerr << "Code Failed!" << endl;
-    }
-
-    return 0;
 }
