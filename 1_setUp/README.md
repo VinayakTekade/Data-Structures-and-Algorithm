@@ -7,8 +7,7 @@
 5. Run the code by using the following command
 
 ```
-g++ addTwo.cpp ../compareFiles.cpp -o my_program
-./my_program.exe
+g++ addTwo.cpp ../compareFiles.cpp -o my_program && ./my_program.exe
 ```
 
 6. If there are no errors the set up is completed successfully.

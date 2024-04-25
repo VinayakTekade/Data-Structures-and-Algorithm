@@ -7,7 +7,7 @@ using namespace std;
 void generateResult()
 {
     bool result = compareFiles("../expected_output.txt", "../output.txt");
-    result ? cerr << "Code Passed!" << endl : cerr << "Code Failed!" << endl;
+    result ? cerr << "Test Case Passed!" << endl : cerr << "Test Case Failed!" << endl;
 }
 
 int main()
