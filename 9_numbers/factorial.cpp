@@ -1,5 +1,17 @@
+//  A factorial is a function that multiplies a number by every number below it till 1
+// Factorial of 3 is 3*2*1 = 6
+// Factorial of 5 is 5*4*3*2*1 = 120
 #include <iostream>
+#include <fstream>
+#include <string>
+#include "../compareFiles.h"
 using namespace std;
+
+void generateResult()
+{
+    bool result = compareFiles("../expected_output.txt", "../output.txt");
+    result ? cerr << "Test Case Passed!" << endl : cerr << "Test Case Failed!" << endl;
+}
 
 int main()
 {
@@ -8,8 +20,8 @@ int main()
     freopen("../output.txt", "w", stdout);
 #endif
 
+    // ============ Your Code goes here ==================
     int n, fact = 1;
-    ;
     cin >> n;
 
     for (int i = 2; i <= n; i++)
@@ -18,5 +30,28 @@ int main()
     }
 
     cout << fact;
+    // ============ Your Code ends here ==================
+#ifndef ONLINE_JUDGE
+    fclose(stdout);
+#endif
+    generateResult();
     return 0;
 }
+
+// ==== TEST CASE 1 =====
+// ---- INPUT ----
+// 5
+// ---- OUTPUT ----
+// 120
+
+// ==== TEST CASE 2 =====
+// ---- INPUT ----
+// 10
+// ---- OUTPUT ----
+// 3628800
+
+// ==== TEST CASE 3 =====
+// ---- INPUT ----
+// 15
+// ---- OUTPUT ----
+// 2004310016

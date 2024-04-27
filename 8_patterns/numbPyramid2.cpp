@@ -1,5 +1,14 @@
 #include <iostream>
+#include <fstream>
+#include <string>
+#include "../compareFiles.h"
 using namespace std;
+
+void generateResult()
+{
+    bool result = compareFiles("../expected_output.txt", "../output.txt");
+    result ? cerr << "Test Case Passed!" << endl : cerr << "Test Case Failed!" << endl;
+}
 
 int main()
 {
@@ -7,6 +16,8 @@ int main()
     freopen("../input.txt", "r", stdin);
     freopen("../output.txt", "w", stdout);
 #endif
+
+    // ============ Your Code goes here ==================
 
     int n;
     cin >> n;
@@ -25,5 +36,43 @@ int main()
         cout << endl;
     }
 
+    // ============ Your Code ends here ==================
+#ifndef ONLINE_JUDGE
+    fclose(stdout);
+#endif
+    generateResult();
     return 0;
 }
+
+// ==== TEST CASE 1 =====
+// ---- INPUT ----
+// 3
+// ---- OUTPUT ----
+//   1
+//  1 2
+// 1 2 3
+
+// ==== TEST CASE 2 =====
+// ---- INPUT ----
+// 5
+// ---- OUTPUT ----
+//     1
+//    1 2
+//   1 2 3
+//  1 2 3 4
+// 1 2 3 4 5
+
+// ==== TEST CASE 3 =====
+// ---- INPUT ----
+// 10
+// ---- OUTPUT ----
+//          1
+//         1 2
+//        1 2 3
+//       1 2 3 4
+//      1 2 3 4 5
+//     1 2 3 4 5 6
+//    1 2 3 4 5 6 7
+//   1 2 3 4 5 6 7 8
+//  1 2 3 4 5 6 7 8 9
+// 1 2 3 4 5 6 7 8 9 10
