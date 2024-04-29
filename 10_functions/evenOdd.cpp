@@ -1,5 +1,14 @@
 #include <iostream>
+#include <fstream>
+#include <string>
+#include "../compareFiles.h"
 using namespace std;
+
+void generateResult()
+{
+    bool result = compareFiles("../expected_output.txt", "../output.txt");
+    result ? cerr << "Test Case Passed!" << endl : cerr << "Test Case Failed!" << endl;
+}
 
 bool isEven(int n)
 {
@@ -17,6 +26,7 @@ int main()
     freopen("../output.txt", "w", stdout);
 #endif
 
+    // ============ Your Code goes here ==================
     int n;
     cin >> n;
 
@@ -29,5 +39,28 @@ int main()
         cout << n << " is an Odd Number";
     }
 
+    // ============ Your Code ends here ==================
+#ifndef ONLINE_JUDGE
+    fclose(stdout);
+#endif
+    generateResult();
     return 0;
 }
+
+// ==== TEST CASE 1 =====
+// ---- INPUT ----
+// 20
+// ---- OUTPUT ----
+// 20 is an Even Number
+
+// ==== TEST CASE 2 =====
+// ---- INPUT ----
+// 11
+// ---- OUTPUT ----
+// 11 is an Odd Number
+
+// ==== TEST CASE 3 =====
+// ---- INPUT ----
+// 6
+// ---- OUTPUT ----
+// 6 is an Even Number
